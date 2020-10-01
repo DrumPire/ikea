@@ -1,4 +1,4 @@
-'use strict';
+
 const generateCatalog = () => {
   const catalog = `
     <div class="catalog">
@@ -23,4 +23,4 @@ const generateCatalog = () => {
 
   document.body.insertAdjacentHTML('afterbegin', catalog);
 };
-  generateCatalog();
+export default generateCatalog;
